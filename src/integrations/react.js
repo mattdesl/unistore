@@ -47,6 +47,7 @@ export function connect(mapStateToProps, actions) {
 				store.unsubscribe(update);
 			};
 			this.render = () => createElement(Child, assign(assign(assign({}, boundActions), this.props), state));
+			this.__$$unistore_connect = true;
 		}
 		Wrapper.contextTypes = CONTEXT_TYPES;
 		return (Wrapper.prototype = Object.create(Component.prototype)).constructor = Wrapper;

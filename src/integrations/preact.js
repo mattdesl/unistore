@@ -41,6 +41,7 @@ export function connect(mapStateToProps, actions) {
 				store.unsubscribe(update);
 			};
 			this.render = props => h(Child, assign(assign(assign({}, boundActions), props), state));
+			this.__$$unistore_connect = true;
 		}
 		return (Wrapper.prototype = new Component()).constructor = Wrapper;
 	};

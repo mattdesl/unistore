@@ -4,7 +4,15 @@
   <a href="https://www.npmjs.org/package/unistore"><img src="https://img.shields.io/npm/v/unistore.svg?style=flat" alt="npm"></a> <a href="https://travis-ci.org/developit/unistore"><img src="https://travis-ci.org/developit/unistore.svg?branch=master" alt="travis"></a>
 </p>
 
-# unistore
+# @mattdesl/unistore
+
+#### FORK
+
+This fork includes a `__$$unistore_connect` variable in the wrapper component, which can be checked by other modules like `@mattdesl/preact-transition-group` for automatic `connect()`.
+
+This is an experimental fork.
+
+--
 
 > A tiny ~650b centralized state container with component bindings for [Preact] & [React].
 

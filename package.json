@@ -1,5 +1,5 @@
 {
-  "name": "unistore",
+  "name": "@mattdesl/unistore",
   "version": "3.0.4",
   "description": "Dead simple centralized state container (store) with preact and react bindings.",
   "source": "src/index.js",
