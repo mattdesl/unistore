@@ -12,7 +12,7 @@ This fork includes a `__$$unistore_connect` variable in the wrapper component, w
 
 This is an experimental fork.
 
---
+\--
 
 > A tiny ~650b centralized state container with component bindings for [Preact] & [React].
 
